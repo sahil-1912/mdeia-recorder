@@ -1,6 +1,6 @@
 {
-  "name": "sahil-recorder",
-  "version": "1.0.0",
+  "name": "web-media-recorder",
+  "version": "1.0.1",
   "description": "A versatile media recording library for audio and video with advanced features",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -39,6 +39,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahil-1912/mdeia-recorder.git"
+    "url": "https://github.com/sahil-1912/media-recorder.git"
   }
 }
