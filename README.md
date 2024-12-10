@@ -1,4 +1,4 @@
-# Flexible Media Recorder
+# Web Media Recorder
 
 A versatile, easy-to-use media recording library for JavaScript with support for both audio and video recording.
 
@@ -21,10 +21,10 @@ npm i web-media-recorder
 
 ### Audio Recording
 ```javascript
-import FlexibleMediaRecorder from 'flexible-media-recorder';
+import WebMediaRecorder from 'web-media-recorder';
 
 async function recordAudio() {
-  const recorder = await FlexibleMediaRecorder.create({
+  const recorder = await WebMediaRecorder.create({
     mediaType: 'audio',
     onChunk: (chunkInfo) => {
       console.log('Chunk recorded:', chunkInfo);
@@ -44,10 +44,10 @@ async function recordAudio() {
 
 ### Video Recording
 ```javascript
-import FlexibleMediaRecorder from 'flexible-media-recorder';
+import WebMediaRecorder from 'web-media-recorder';
 
 async function recordVideo() {
-  const recorder = await FlexibleMediaRecorder.create({
+  const recorder = await WebMediaRecorder.create({
     mediaType: 'video',
     constraints: {
       video: { width: 1280, height: 720 },

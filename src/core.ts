@@ -6,7 +6,7 @@ import {
   RecorderControls,
 } from './types';
 
-export class FlexibleMediaRecorder {
+export class WebMediaRecorder {
   private stream: MediaStream | null = null;
   private mediaRecorder: MediaRecorder | null = null;
   private chunks: Blob[] = [];
@@ -103,7 +103,7 @@ export class FlexibleMediaRecorder {
   }
 
   public static async create(options?: RecorderOptions): Promise<RecorderControls> {
-    const recorder = new FlexibleMediaRecorder(options);
+    const recorder = new WebMediaRecorder(options);
     return recorder.initRecorder();
   }
 }

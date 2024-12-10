@@ -1,6 +1,6 @@
 // Export the class and types for external use
 export {
-  FlexibleMediaRecorder,
+  WebMediaRecorder,
 } from './core';
 
 export {

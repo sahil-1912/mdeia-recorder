@@ -1,8 +1,8 @@
-import { FlexibleMediaRecorder } from '../core';
+import { WebMediaRecorder } from '../core'
 
-describe('FlexibleMediaRecorder', () => {
+describe('WebMediaRecorder', () => {
     test('should initialize correctly', async () => {
-        const recorder = await FlexibleMediaRecorder.create({
+        const recorder = await WebMediaRecorder.create({
             mediaType: 'audio'
         });
 
