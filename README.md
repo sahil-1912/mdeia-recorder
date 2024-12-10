@@ -14,7 +14,7 @@ A versatile, easy-to-use media recording library for JavaScript with support for
 ## Installation
 
 ```bash
-npm install flexible-media-recorder
+npm i web-media-recorder
 ```
 
 ## Basic Usage
